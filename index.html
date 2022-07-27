@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script defer src="/assets/js/script.js"></script>
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="#">
+        <div class="container">
+            <div class="create__class">
+                <h2>CREATE CLASS</h2>
+                <div class="form-control">
+                    <label for="className">Class Name :</label>
+                    <input class="class" id="className" name="className" type="text" placeholder="type your class name here">
+                </div>
+                
+                <div class="form-control">
+                    <label for="year">Year :</label>
+                    <input class="year" id="year" name="year" type="number" placeholder="type your school year here">
+                </div>
+
+                <div class="class__btn">
+                    <button id="addClass">Add Class</button>
+                    <button type="reset">Cancel</button>
+                </div>
+
+            </div>
+    </form>
+
+    <form action="#">
+            
+        <div class="details">
+
+            <h2>ADD A STUDENT</h2>
+            
+            <div class="form-control">
+                <label for="firstName">First Name :</label>
+                <input class="firstName" id="firstName" name="firstName" type="text" placeholder="type your first name here">
+            </div>
+
+            <div class="form-control">
+                <label for="lastName">Last Name :</label>
+                <input class="lastName" id="lastName" name="lastName" type="text" placeholder="type your last name here">
+            </div>
+
+            <div class="form-control">
+                <label for="phoneNumber">Phone Number :</label>
+                <input class="phoneNumber" id="phoneNumber" name="phoneNumber" type="number" placeholder="type your phone number here">
+            </div>
+
+            <div class="form-control">
+                <label for="email">Email :</label>
+                <input class="email" id="email" name="email" type="email" placeholder="hello@student.com">
+            </div>
+            <div class="btn">
+                <button id="enrollBtn">Enroll Now</button>
+                <button type="reset">Cancel</button>
+            </div>
+
+        </div>
+            
+    </form>
+    <div class="footer__content">
+        <h2>DISPLAY ON TABLE</h2>
+        <div class="display__table">
+            <table class="info">
+                <thead>
+                    <tr>
+                        <th>Class Name</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody id="classInfo">
+                </tbody>
+            </table>
+    
+            <table class="info">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Phone Number</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody id="studentInfo">
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>
+                    
+        
+        
+                    
+
